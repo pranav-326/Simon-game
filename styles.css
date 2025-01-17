@@ -5,7 +5,7 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   margin:  5%;
   color: #FEF2BF;
 }
@@ -46,7 +46,16 @@ body {
 .yellow {
   background-color: yellow;
 }
-
+.start-button {
+  background-color: lightgreen;
+  height: 20px;
+  width: 100px;
+  font-family: 'Press Start 2P', cursive;;
+  border: 10px solid black;
+  border-radius: 20%;
+  margin: 25px;
+  display: inline-block;
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
